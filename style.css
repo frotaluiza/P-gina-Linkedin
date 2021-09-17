@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+  }
+
+:root{
+    font-size:10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    overflow-y: scroll;
+    font-size:1.6rem;
+    margin: 0;
+    padding: 0;
+    background-color:#f3f2ef;
+    vertical-align: baseline;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+/* MOTO G4 */
+
+
+
+@media(max-width: 1007px){
+     #pesquisa input{
+        display:none;
+    }
+}
+
+@media(max-width: 550px){
+    #mais{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .opcoes-nav p{
+        display: none;
+    }
+
+   
+}
+
+@media(max-width: 360px){
+    #eu,#notificacoes{
+        display:none;
+    }
+}
+
+@media(max-width: 473px){
+    button{
+        padding: 6px 18px ;
+    }
+}
+
+@media(min-width: 475px){
+    button{
+        padding: 6px 18px ;
+    }
+}
+
+
+
+#conteiner-principal{
+    top:auto;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+#conteiner-nav{
+    width: 100vw;
+    background-color: #FFFFFF;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    z-index: 1000;
+    position:fixed;
+    align-items: center;
+    width:93.2vw;
+    min-height: 48px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    
+
+}
+
+.icones-nav{
+    width:20px;
+    height: 20px;
+    
+}
+
+#eu{
+    position: relative;
+    
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#imagem-linkedin{
+    width: 34px;
+    height: 34px;
+    margin-right: 1.5vw;
+}
+
+img{
+    width: 100%;
+}
+
+#opcoes{
+    display:flex;
+    align-items: center;
+    
+}
+
+.opcoes-nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1.5vw 0px 1.5vw;
+    font-size: 10px;
+}
+
+#logo-pesquisa,#pesquisa{
+    display:flex;
+    align-items: baseline;
+}
+
+#lupa{
+    position: relative;
+    left:25px;
+    height:18px;
+    width: 18px;
+    
+
+}
+
+input{
+    height: 34px;
+    width: 235x;
+    border: none;
+    background-color: #EEF3F7;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+/* PRIMEIRO CONTEINER */
+
+#back-foto{
+    height: 135px;
+    overflow: hidden;
+}
+
+#back-foto img{
+    height: 100%;
+}
+
+
+
+
+.foto-perfil{
+    overflow: hidden;
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    position:relative;
+    left:25px;
+    bottom: 77px ;
+
+}
+
+#header-e-background,#sobre-voce{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top:97px ;
+    overflow: hidden;
+    width:93.2%;
+}
+
+
+header,#botoes{
+    margin-left: 22px;
+}
+
+#botoes{
+    display:flex;
+}
+
+button:hover{
+    background-color: #08335e;
+}
+
+button{
+    border: 0.5px solid rgb(82, 78, 78);
+    border-radius: 15px;
+    background-color:#0B65C2 ;
+    color: #FFFFFF;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+
+
+header {
+    position:relative;
+    bottom: 70px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#botoes{
+    position:relative;
+    bottom: 70px;
+}
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.03px;
+}
+
+h2{
+    font-size:14px;
+    margin-top: 5px;
+}
+
+h3{
+    font-size:12px;
+    margin-top: 5px;
+}
+
+header p {
+    font-size:12px;
+}
+header h3{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 14.69px;
+    color: #666666;
+}
+
+
+
+/* OQUE FALTA NO CONTEINER: 
+    EDITAR OS BOTÕES (HOVER) */
+
+/* -----CONTEINER-2-------- */
+
+#sobre-voce{
+    height: 535px;
+    margin-top: 32px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:93.2%;
+}
+
+#sobre-voce h3{
+    color: #000000;
+    font-weight: 700;
+    size:12px;
+    line-height: 14.69px;
+
+}
+
+#sobre-voce p{
+    color: #666666;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.46px;
+}
+
+.conteiner-inf{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-areas: 
+    "imagem conteudo"
+    "imagem conteudo"
+    "imagem conteudo";
+     margin-bottom: 50px;
+}
+
+.imagem-quadrada{
+    grid-area: imagem;
+    width: 35px;
+    height: 35px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.conteudo{
+    grid-area:conteudo;
+}
+
+
+#sobre-voce h2{
+    font-size:14px;
+    font-weight: 500;
+    line-height: 17.14px;
+    margin-left:21px;
+    margin-bottom:30px ;
+}
+
+
+#sobre-voce h4{
+    font-size:11px;
+    font-weight: bold;
+}
+
+
+#experiencia{
+    padding-top: 16px;
+    padding-bottom: 40px;
+      
+}
+
+#formacao{
+    border-top: 1px solid #F3F2EE;
+    
+}
+
+#conteiner-formacoes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:219px;
+   
+}
+
+
+

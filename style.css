@@ -283,8 +283,9 @@ header h2{
     margin-bottom: 38px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     width:93.2%;
+    
 }
 
 #sobre-voce h3{
@@ -331,7 +332,7 @@ header h2{
     font-weight: 500;
     line-height: 17.14px;
     margin-left:21px;
-    margin-bottom:30px ;
+    margin-bottom:18px ;
 }
 
 
@@ -341,11 +342,6 @@ header h2{
 }
 
 
-#experiencia{
-    padding-top: 16px;
-    padding-bottom: 40px;
-      
-}
 
 #formacao{
     border-top: 1px solid #F3F2EE;
@@ -358,6 +354,10 @@ header h2{
     justify-content: center;
     height:219px;
    
+}
+
+#formacao h2, #experiencia h2{
+    margin-top: 17px;
 }
 
 

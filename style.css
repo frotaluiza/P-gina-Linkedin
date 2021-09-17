@@ -126,6 +126,8 @@ img{
 }
 
 #opcoes{
+    position: relative;
+    left: 15vw;
     display:flex;
     align-items: center;
     

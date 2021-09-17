@@ -246,6 +246,7 @@ h1{
 h2{
     font-size:14px;
     margin-top: 5px;
+    
 }
 
 h3{
@@ -261,6 +262,10 @@ header h3{
     font-weight: 400;
     line-height: 14.69px;
     color: #666666;
+}
+
+header h2{
+    font-weight: 500;
 }
 
 
